@@ -17,7 +17,7 @@ testWebP(function (support) {
 const navbar = document.querySelector(".navigation")
 const burger = document.querySelector(".header__burger")
 burger.addEventListener("click", () => {
-    document.body.classList.add("_lock")
+    document.body.classList.toggle("_lock")
     navbar.classList.toggle("_active")
     burger.classList.toggle("_active")
 })
