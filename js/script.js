@@ -33,7 +33,7 @@ if (navLinks.length > 0) {
                 const gotoBlockValue = gotoBlock.getBoundingClientRect().top + pageYOffset - document.querySelector(".header").offsetHeight
 
                 if (burger.classList.contains("_active")) {
-                    document.body.classList.remove("lock")
+                    document.body.classList.remove("_lock")
                     navbar.classList.remove("_active")
                     burger.classList.remove("_active")
                 }
