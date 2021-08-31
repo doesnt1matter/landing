@@ -128,7 +128,7 @@ body._lock {
   top: 0;
   left: 0;
   width: 100%;
-  height: 90px;
+  height: 100%;
   overflow: auto;
 }
 
@@ -618,10 +618,6 @@ body._lock {
         -ms-transform: translate(0%);
             transform: translate(0%);
     pointer-events: all;
-  }
-
-  .header__navigation._active .header {
-    height: 100%;
   }
 
   .header__burger {
