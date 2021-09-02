@@ -119,21 +119,16 @@ body._lock {
   width: 100%;
   height: 90px;
   background-color: white;
-  z-index: 100;
+  z-index: 20;
 }
 
 .header {
   position: fixed;
-  z-index: 100;
+  z-index: 20;
   top: 0;
   left: 0;
   width: 100%;
-  height: 100%;
   overflow: auto;
-}
-
-.header__decor {
-  z-index: 0;
 }
 
 .header__wrap {
@@ -468,7 +463,6 @@ body._lock {
   overflow: hidden;
   cursor: pointer;
   position: relative;
-  z-index: 101;
 }
 
 .item__img img {
@@ -499,7 +493,6 @@ body._lock {
   -o-transition: all 0.5s;
   transition: all 0.5s;
   position: relative;
-  z-index: 20;
   cursor: pointer;
   color: black;
 }
@@ -531,6 +524,7 @@ body._lock {
 }
 
 .contact__button {
+  position: relative;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
